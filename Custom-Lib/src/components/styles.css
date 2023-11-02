@@ -1,0 +1,42 @@
+.Libraries {
+  box-sizing: border-box;
+  margin: auto;
+  margin-top: 100px;
+  padding: 30px;
+  width: 95%;
+  border: 2px solid black;
+  border-radius: 12px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Libraries input {
+  height: 32px;
+  border-radius: 8px;
+  border: 2px solid gray;
+  width: 350px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* GridComponent.css */
+.custom-grid {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.custom-grid th,
+.custom-grid td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+.custom-grid th {
+  background-color: #f2f2f2;
+}
+
+.custom-grid tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
